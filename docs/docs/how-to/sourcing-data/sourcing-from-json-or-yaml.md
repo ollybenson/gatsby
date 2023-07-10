@@ -248,7 +248,7 @@ Breaking down this code excerpt into smaller parts:
 
 To complete the process of rendering the sourced content, you'll need to create a template for producing dynamic pages from data.
 
-To match the component referenced in `gatsby-config.js`, create a file called `basicTemplate.js` in the `src/templates/` folder and add the following:
+To match the component referenced in `gatsby-node.js`, create a file called `basicTemplate.js` in the `src/templates/` folder and add the following:
 
 ```jsx:title=src/templates/basicTemplate.js
 import React from "react"
